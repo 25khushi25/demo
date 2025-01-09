@@ -1,0 +1,65 @@
+body
+{
+    background-color: bisque;
+}
+.wrapper{
+    position: absolute;
+    width: 35.25em;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+
+}
+.inp-container{
+    background-color: darkturquoise;
+    border-radius: 0.5em;
+    padding: 4em 2em;
+}
+h1{
+    text-align: center;
+    color: blueviolet;
+    font-weight: 500;
+    margin-bottom: 1em;
+
+
+}
+textarea{
+    resize: none;
+    width: 100%;
+    border: none;
+    padding: 1em;
+    border-radius: 0.5em;
+    background-color: white;
+    outline: none;
+    color:black;
+}
+#analyzeButton{
+    color: #fff;
+    width: 100%;
+    background-color:brown;
+    border-radius: 0.5em;
+    position: relative;
+    padding: 1.5em 0;
+    margin-top: 1.em;
+    border: none;
+    outline: none;
+
+}
+#results{
+    width: 120%;
+    background-color:darksalmon;
+    position: relative;
+    right: 10px;
+    margin-top: -8em;
+    border-radius: 0.5em;
+    z-index: -1;
+    padding: 10em 2em 3em 2em;
+
+
+}
+.output-container{
+    font-weight: 500;
+}
+.output-container span{
+    font-weight: 400;
+}
